@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "425959858411",
+    "firebase_url": "https://hackatum2018.firebaseio.com",
+    "project_id": "hackatum2018",
+    "storage_bucket": "hackatum2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425959858411:android:7afb959ef7f0a422",
+        "android_client_info": {
+          "package_name": "com.chandruscm.hackatum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425959858411-ju96pskc3ocg1tojrjdj4jee4hsdnbae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandruscm.hackatum",
+            "certificate_hash": "d897a071721f01337e111e02a65a0c25fcaae64f"
+          }
+        },
+        {
+          "client_id": "425959858411-qbpv1ojht9e7au1241q4pkev2gnud5nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Kcjmpl2MyJWwn0EyBRpr03ZTPsCBz4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425959858411-qbpv1ojht9e7au1241q4pkev2gnud5nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

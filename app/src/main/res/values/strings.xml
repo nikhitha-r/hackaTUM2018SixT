@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HackaTUM</string>
+
+    <string-array name="recipients">
+        <item>David</item>
+        <item>Michael</item>
+        <item>Peter</item>
+        <item>Schmidt</item>
+        <item>Rafael</item>
+    </string-array>
+</resources>

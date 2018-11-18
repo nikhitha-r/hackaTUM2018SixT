@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_search_main_layout">
+
+    <include layout="@layout/activity_search_destination_toolbar"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorOrange"
+        android:layout_toEndOf="@+id/activity_search_toolbar_end_button"
+        android:textColorHint="@android:color/darker_gray"
+        android:textCursorDrawable="@drawable/search_cursor"
+        android:textSize="@dimen/font_large"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:hint="SET DESTINATION OF PACKAGE"
+        android:clickable="true"
+        android:focusable="true"
+        android:stateListAnimator="@null"
+        android:id="@+id/activity_search_toolbar_edit_text_name">
+        <requestFocus/>
+    </EditText>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorOrange"
+        android:layout_toEndOf="@+id/activity_search_toolbar_end_button"
+        android:textSize="@dimen/font_large"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/activity_search_toolbar_user_dropdown">
+        <requestFocus/>
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:textSize="@dimen/font_large"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:background="@color/colorOrange"
+        android:onClick="onSubmitClick"
+        android:text="submit"/>
+
+</LinearLayout>
